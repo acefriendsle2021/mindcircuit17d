@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('gitcheckout') {
+            steps {
+                echo 'code clone'
+                git branch: 'main', url: 'https://github.com/acefriendsle2021/mindcircuit17d.git'
+            }
+        }
+        stage('build stage'){
+        steps{
+            echo 'build stage'
+            sh 'mvn clean install'
+        }
+    }    
+        stage('deploy'){
+        steps{
+            echo 'deploy stage'
+            deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://18.232.148.113:8080')], contextPath: '/raaka', war: '**/*war'
+            
+        }
+      }
+    }
+}
