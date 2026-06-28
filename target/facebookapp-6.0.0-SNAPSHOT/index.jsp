@@ -8,9 +8,9 @@
 </head>
 <body>
 
-    <h1>Hello, World!</h1>
+    <h1>Hi AWS Devops champs </h1>
     
-    <p>Welcome to your first JavaServer Page.</p>
+    <p>Welcome to Mindcircuit </p>
     
     <!-- This tag evaluates a Java expression and prints it to the page -->
     <h3>Current Server Time: <%= new Date() %></h3>
