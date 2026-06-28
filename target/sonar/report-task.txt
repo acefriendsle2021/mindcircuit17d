@@ -2,5 +2,5 @@ projectKey=com.example:facebookapp
 serverUrl=http://54.235.63.122:9000
 serverVersion=26.6.0.123539
 dashboardUrl=http://54.235.63.122:9000/dashboard?id=com.example%3Afacebookapp
-ceTaskId=b3c2bcfc-5fa3-4e5b-a3c2-b653422bef2e
-ceTaskUrl=http://54.235.63.122:9000/api/ce/task?id=b3c2bcfc-5fa3-4e5b-a3c2-b653422bef2e
+ceTaskId=95cf5434-67a8-4ede-9624-8c5e8034d340
+ceTaskUrl=http://54.235.63.122:9000/api/ce/task?id=95cf5434-67a8-4ede-9624-8c5e8034d340
