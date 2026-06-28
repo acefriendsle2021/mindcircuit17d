@@ -24,6 +24,6 @@ spec:
     spec:
       containers: 
       - name: facebook-container
-        image: gumudalganesh/project:16
+        image: gumudalganesh/project:18
         ports:
         - containerPort: 8080
